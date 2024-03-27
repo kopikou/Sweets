@@ -55,14 +55,14 @@ namespace Sweets
         
         public override String GetImg()
         {
-            String str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\chocolate.jpg";
+            String str = "..\\..\\..\\..\\static\\chocolate.jpg";
             switch (choc_type)
             {
                 case ChocolateType.темный:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\черншок.jpeg";
+                    str = "..\\..\\..\\..\\static\\черншок.jpeg";
                     break;
                 case ChocolateType.молочный:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\молоч.jpg";
+                    str = "..\\..\\..\\..\\static\\молоч.jpg";
                     break;
             }
             return str;
@@ -96,23 +96,23 @@ namespace Sweets
         }
         public override String GetImg()
         {
-            var str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\bakery.jpg";
+            var str = "..\\..\\..\\..\\static\\bakery.jpg";
             switch (bak_type)
             {
                 case BakeryType.булочка:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\булочка.jpg";
+                    str = "..\\..\\..\\..\\static\\булочка.jpg";
                     break;
                 case BakeryType.пирожок:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\пирожок.jpg";
+                    str = "..\\..\\..\\..\\static\\пирожок.jpg";
                     break;
                 case BakeryType.ватрушка:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\ватрушка.jpg";
+                    str = "..\\..\\..\\..\\static\\ватрушка.jpg";
                     break;
                 case BakeryType.пирожное:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\пирожное.jpg";
+                    str = "..\\..\\..\\..\\static\\пирожное.jpg";
                     break;
                 case BakeryType.печенье:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\печенье.jpg";
+                    str = "..\\..\\..\\..\\static\\печенье.jpg";
                     break;
             }
             return str;
@@ -147,23 +147,23 @@ namespace Sweets
         }
         public override String GetImg()
         {
-            var str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\fruits.jpg";
+            var str = "..\\..\\..\\..\\static\\fruits.jpg";
             switch (fruit_type)
             {
                 case FruitType.семечковый:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\яблоки.jpg";
+                    str = "..\\..\\..\\..\\static\\яблоки.jpg";
                     break;
                 case FruitType.косточковый:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\персик.jpg";
+                    str = "..\\..\\..\\..\\static\\персик.jpg";
                     break;
                 case FruitType.ягоды:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\ягоды.jpg";
+                    str = "..\\..\\..\\..\\static\\ягоды.jpg";
                     break;
                 case FruitType.орехоплодный:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\орехи.jpg";
+                    str = "..\\..\\..\\..\\static\\орехи.jpg";
                     break;
                 case FruitType.тропический:
-                    str = "E:\\Технологии программирования c#\\ЛР №4 Наследование\\Sweets\\апельсин.jpg";
+                    str = "..\\..\\..\\..\\static\\апельсин.jpg";
                     break;
             }
             return str;

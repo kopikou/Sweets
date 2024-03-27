@@ -69,6 +69,7 @@ namespace Sweets
             if (this.sweetsList.Count == 0)
             {
                 txtOut.Text = "Пусто :(";
+                picture.Image = Image.FromFile(@"..\..\..\..\static\sweets.jpg");
                 return;
             }
 
